@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="wrap_content"
+	android:layout_height="35dp"
+    >
+	<TextView
+        android:id="@+id/mark"
+        android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/background_text_color"
+		android:textSize="18sp" android:minWidth="15dp"
+        />
+	<TextView
+        android:id="@+id/time_name"
+		android:layout_width="fill_parent"
+        android:textSize="16sp"
+		android:layout_height="wrap_content"
+		android:minWidth="100dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/background_text_color"
+        android:layout_weight="2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX=".7"
+        android:scaleY=".7"
+        android:id="@+id/imageView4"
+        android:src="@drawable/clock"
+        />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="fill_parent"
+		android:textSize="16sp"
+        android:textColor="@color/background_text_color"
+        android:layout_height="wrap_content"
+        android:text="~"
+        />
+	<TextView
+        android:id="@+id/time_am_pm"
+		android:layout_width="fill_parent"
+        android:textSize="12dip"
+		android:layout_height="wrap_content"
+        android:textColor="@color/background_text_color"
+		android:minWidth="5px" />
+</LinearLayout>

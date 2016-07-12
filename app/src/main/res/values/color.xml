@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background">#070D3B</color>
+    <color name="background_text_color">#8FFFFF</color>
+    <color name="semi_transparent_white">#55FFFFFF</color>
+    <color name="textcolor">#00086c</color>
+
+
+    <!-- Global -->
+
+    <color name="background_listview_color_up">#2c0033</color>
+    <color name="background_listview_color_down">#1a001e</color>
+    <color name="bg_title_bar_color">#5e0573</color>
+    <color name="bg_drawer_color">#3f3830</color>
+    <color name="divider_color_dark">#332c26</color>
+    <color name="divider_color_light">#514a42</color>
+    <color name="bg_drawer_select_color">#453e36</color>
+
+
+
+    <color name="semi_transparent_black">#55000000</color>
+
+    <!-- Green Theme -->
+    <color name="green_background_color">#ff5A6131</color>
+    <!--<color name="green_background">@drawable/bg_pattern_green_repeat</color>-->
+    <color name="light_yellow">#eccd34</color>
+    <color name="overscroll">#33b5e5</color>
+    <!-- Brown Theme -->
+    <color name="brown_background_color">#ff5F4135</color>
+
+    <color name="colorPrimary">#00086c</color>
+    <color name="colorPrimaryDark">#000658</color>
+    <color name="textColorPrimary">#8FFFFF</color>
+    <color name="windowBackground">#8FFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#000658</color>
+
+</resources>
